@@ -1,0 +1,18 @@
+INSERT INTO accounts
+(account_number, account_type, balance, currency, status, user_id)
+VALUES
+('ACC1001', 'SAVINGS', 8000.00, 'INR', 'ACTIVE', 101),
+
+('ACC1002', 'CURRENT', 7000.00, 'INR', 'BLOCKED', 101),
+
+('ACC2001', 'SAVINGS', 10980.00, 'INR', 'ACTIVE', 102),
+
+('ACC2002', 'CURRENT', 11020.00, 'INR', 'ACTIVE', 102),
+
+('ACC3001', 'SAVINGS', 12000.00, 'INR', 'ACTIVE', 103),
+
+('ACC3002', 'CURRENT', 8000.00, 'INR', 'ACTIVE', 103),
+
+('ACC4001', 'SAVINGS', 9000.00, 'INR', 'ACTIVE', 104),
+
+('ACC4002', 'CURRENT', 6000.00, 'INR', 'ACTIVE', 104);
